@@ -2,11 +2,11 @@
 /* HTML Attributes
 -------------------------------------------------- */
 body {
+    margin:0 auto;
+    width:95%;
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", sans-serif; 
    font-weight: 300;
     background-color: #fff;
-    width: 950px;
-    margin:0 auto;
     }
 
 /* Links
@@ -25,10 +25,8 @@ text-shadow: 2px;
 /* Header
 -------------------------------------------------- */
 .page-header {
-    width:95%;
     margin:0 auto;
-    border:1px;
-    border-color: #fff;
+    width:95%;
     border-bottom: 1px solid #cccccc;
 }
 .page-header h1 {
@@ -37,16 +35,6 @@ text-shadow: 2px;
     font-weight:100;
     text-align: center;
 }
-        header h1 a:hover {
-          text-decoration: none; }
-        header h1 a .logo {
-          float: center;
-          height: 70px;
-          margin-right: 20px;
-          width: 70px;
-        border-radius: 5px
-}
-    
 .page-header p {
     color:#7c7c7c;
     font-size:15px;
@@ -56,54 +44,25 @@ text-shadow: 2px;
 
 /* Content
 -------------------------------------------------- */
-.teaching {
-    text-align: left
-}
-
-.technology {
-    text-align: right
+.content {
+    margin:0 auto;
+    width: 95%;
 }
 
 /* Footer
 -------------------------------------------------- */
 footer {
-    bottom:0;
-    width:100%;
-    height:60px;   
-    background: #7DCCFF ;
+    margin:0 auto;
+    width:95%;
+    height:40px;
+    border-radius: 5px;
+    background: #7DCCFF;
     clear: both;
     border-top: 2px solid #FFFFFF;
+}
 
 /* Contact Info
 -------------------------------------------------- */
-}
-.contact {
-    text-align: right
-}
-.contact li {
-    display: inline;
-    font-size: 12px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-shadow: 2px;
-}
-.contact a:link {
-    font-size: 15px;
-    text-decoration:none;
-    text-shadow: 2px;
-    color: #ffffff;
-}
-.contact a:visited {
-    font-size: 15px;
-    text-decoration:none;
-    text-shadow: 2px;
-    color: #ffffff;
-}
 
 /* Blog
 -------------------------------------------------- */
-.blog {
-    margin:0 auto;
-}
