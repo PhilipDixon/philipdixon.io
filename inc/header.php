@@ -21,4 +21,4 @@
       <div class="page-header">
   <h1><strong>PhilipDixon</strong>.io</h1>
 </div>  
-      <div class="content">
+      <div class="content"> 
