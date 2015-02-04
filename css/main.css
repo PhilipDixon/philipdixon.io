@@ -26,7 +26,6 @@ text-shadow: 2px;
 -------------------------------------------------- */
 .page-header {
     margin:0 auto;
-    width:75%;
     border-bottom: 1px solid #cccccc;
 }
 .page-header h1 {
@@ -46,14 +45,12 @@ text-shadow: 2px;
 -------------------------------------------------- */
 .content {
     margin:0 auto;
-    width: 75%;
 }
 
 /* Footer
 -------------------------------------------------- */
 footer {
     margin:0 auto;
-    width:75%;
     height:40px;
     border-radius: 5px;
     background: #7DCCFF;
